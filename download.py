@@ -13,7 +13,7 @@ for i, model in enumerate(models):
     )
 
 # Get user choice
-choice = int(input("\nSelect a model (enter number): "))
+choice = 1 #int(input("\nSelect a model (enter number): "))
 
 if 0 <= choice < len(models):
     selected = models[choice]
